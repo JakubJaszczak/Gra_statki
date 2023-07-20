@@ -1,0 +1,18 @@
+Gra zaczyna sie od gracza_1,który na początku rostawia swoje statki,po wykorzystaniu wszystkich swoich statków,gra automatycznie przełącza sie na gracza_2.
+Automatycznie gracz rozstawia statki poziomo,jeżeli chce rozstawić je pionowo należy zaznaczyć to na checkBoxie(statki rozstawiaja sie odpowiednio z góry na dół i od lewej do prawej)
+Nastepnie ze spinBoxa wybrac rozmiar statku do rozstawienia(Gdy gracz wykorzysta statki danego rozmiaru,gra automatycznie zwiększy rozmiar statku o 1). Każdy gracz posiada:
+4 statki długości 1 
+3 statki dlugosci 2 
+2 statki dlugosci 3 
+1 statek dlugosci 4
+Statków nie wolno rozstawiać w mniejszej odleglości niz 1 kratka od innego statku.
+Gdy zarówno gracz_1 jak i gracz_2 wykorzystają stoje statki,gra automatycznie zmienia tryb na strzelanie.
+Zaczyna strzelać gracz_1.Jeżeli trafi statek przeciwnika dostaje kolejny strzał.W przeciwnym wypadku opcje strzału dostaje drugi gracz.
+Oznaczenia planszy:
+kolor niebieski-woda(brak statku,przeciwnik nie strzelał w dane pole)
+kolor zielony-strzał został oddany w dane pole, ale nie było tam statku
+kolor czerwony-trafiony statek
+Również gdy statek zostanie "trafiony-zatopiony" pola w okól danego statku zmieniają kolor na zielony,co znaczy że nie można juz strzelać w dane pole.
+Gra kończy się gdy jeden z graczy zestrzeli wszystkie statki przeciwnika.
+Po skończeniu gry po prawej stronie w okineku "stan gry" pojawi się napis, który gracz wygrał.
+Aby zagrać jeszcze raz należy wcisnąć przycisk restart(plansza się wyczyści i gra zaczyna sie od początku).
